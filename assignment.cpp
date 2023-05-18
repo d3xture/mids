@@ -99,5 +99,13 @@ using namespace std;
 // }
 // unitPrice = 5;
 // billAmount += units*unitPrice;
-// cout<<"Your bill Amount is: "<<billAmount;
-// }
+
+//This task was additional given by Sir.
+double dueAmount;
+dueAmount = billAmount * 0.10;
+cout<<"Your current bill Amount is: "<<billAmount<<endl;
+cout<<"Your due Amount is: "<<dueAmount<<endl;
+cout<<"Your total bill Amount is: "<<billAmount+dueAmount;
+reuturn 0;
+}
+
